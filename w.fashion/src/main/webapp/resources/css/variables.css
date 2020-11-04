@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+	/* color */
+	--white: #fff;
+    --black: #140a00;
+	--red: #f91e48;
+	--pink: rgb(249, 30, 72);
+	--gray: #ced4da;
+	--gray-light: rgba(245,245,245,.95);
+	
+
+	/* space */
+	--side-space: 100px;
+	--mobile-side-space: 10px;
+}

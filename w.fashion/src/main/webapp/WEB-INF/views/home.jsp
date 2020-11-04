@@ -1,14 +1,17 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
-<html>
-<head>
-	<title>Home</title>
-</head>
-<body>
-<h1>
-	Hello world!  
-</h1>
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
 
-<P>  The time on the server is ${serverTime}. </P>
-</body>
-</html>
+<main>
+	<section class="banners">
+		<div class="banners-img">
+			<img src="/resources/img/banner01.jpg">
+			<img src="/resources/img/banner02.jpg">
+			<img src="/resources/img/banner03.jpg">
+		</div>
+		<!-- 
+		<div class="banners-btn">
+			<span class="prev"><img src="/resources/img/btn-prev.png"></span>
+			<span class="next"><img src="/resources/img/btn-next.png"></span>
+		</div>
+		 -->
+	</section>
+</main>

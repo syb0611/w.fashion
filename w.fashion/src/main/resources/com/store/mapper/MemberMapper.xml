@@ -11,7 +11,7 @@
 	
 	<insert id="registerMember">
 		insert into t_member(mno, userid, username, userpw, email, phone, zip, address1, address2, auth) 
-		values(seq_member.nextval, #{userid}, #{username}, #{userpw}, #{email}, #{phone}, #{zip}, #{address1}, #{address2}, #{auth})
+		values(seq_member.nextval, #{userid}, #{username}, #{userpw}, #{email}, #{phone}, #{zip}, #{address1}, #{address2}, '1')
 	</insert>
 	
 	<select id="getMemberInfo" resultType="com.store.vo.MemberVO">
